@@ -1,7 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 
-const AUTHTOKEN = ''; // kosongkan dulu, biasanya endpoint ini TIDAK butuh token
+const AUTHTOKEN = '8875'; // kosongkan dulu, biasanya endpoint ini TIDAK butuh token
 const WAYBILL = '201034345270';
 
 async function fetchWaybill(waybillNo, token) {
